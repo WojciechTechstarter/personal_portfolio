@@ -1,0 +1,80 @@
+/* Resetowanie domyślnych stylów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    text-align: center;
+}
+
+/* Nagłówek */
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+}
+
+/* Nawigacja */
+nav {
+    background-color: #005bb5;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Sekcje */
+section {
+    background: white;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid #ddd;
+    max-width: 700px;
+}
+
+/* Lista hobby */
+ul {
+    list-style: square;
+    padding-left: 20px;
+    text-align: left;
+    display: inline-block;
+}
+
+/* Linki */
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Stopka */
+footer {
+    background: #005bb5;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
