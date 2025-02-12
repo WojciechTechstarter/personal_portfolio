@@ -1,0 +1,122 @@
+/* reseting the default margins */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: max-content
+}
+
+
+/* Header */
+
+.navbar {
+    background-color: grey;
+    height: 60px;
+    width: 100vw;
+    margin: 2px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.navArea {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo */
+
+.navAreaOne {
+    flex: 1;
+    background-color: #e1d9bd;
+    justify-content: flex-start;
+    padding-left: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+/* Navbar Titel */
+
+
+.navAreaTwo {
+    flex: 1;
+    background-color: #6f8ec0;
+    font-size: 24px;
+}
+
+/* Navbar Right side */
+.navAreaThree {
+    flex: 1;
+    background-color: #ecc2c2;
+}
+
+
+/* Main Content */
+
+.mainContent {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid red;
+
+}
+
+
+/* Shop Items */
+.shopContainer {
+    display: flex;
+    justify-content: left;
+    gap: 20px;
+    background-color: blue;
+    padding: 20px;
+}
+
+.shopItem {
+    width: 120px;
+    height: 120px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid white;
+}
+
+/* Banner */
+.banner {
+    width: 80%;
+    height: 80px;
+    background-color: black;
+    margin: 20px auto;
+    border: 2px solid white;
+}
+
+/* Footer */
+.footer {
+    margin-top: auto;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    color: blue;
+}
+
+.footerItem1 {
+    flex: 1;
+    background-color: darkred;
+}
+
+.footerItem2 {
+    flex: 1;
+    background-color: black;
+}

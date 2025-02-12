@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    background-color: red;
+    width: 100vw;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.navArea {
+    flex: 1;
+    height: 100%;
+}
+
+.navAreaOne {
+    flex: 2;
+    background-color: blue;
+}
+
+.navAreaTwo {
+    background-color: green;
+}
+
+.navAreaThree {
+    background-color: black;
+}
+
+.logoTitle {
+    color: purple;
+    font-size: 18px;
+    background-color: white;
+    padding: 8px;
+}
+
+.logo {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-color: orange;
+    margin-left: 8px;
+}
+
+.logoImg {
+    height: 30px;
+    aspect-ratio: 2;
+    border-radius: 50%;
+}
+
+img {
+    object-fit: cover;
+}
+
+.myImage {
+    height: 500px;
+    aspect-ratio: 1;
+    object-fit: fill;
+}
