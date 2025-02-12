@@ -1,4 +1,4 @@
-/* Resetowanie domyślnych stylów */
+/* Reseting default styles*/
 * {
     margin: 0;
     padding: 0;
@@ -7,21 +7,21 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-color: #e4e1e1;
     color: #333;
     text-align: center;
 }
 
-/* Nagłówek */
+/* Header */
 header {
-    background-color: #0073e6;
+    background-color: #e8ecef;
     color: white;
     padding: 20px;
 }
 
-/* Nawigacja */
+/* Nav */
 nav {
-    background-color: #005bb5;
+    background-color: #0460bd;
     padding: 10px;
 }
 
@@ -44,16 +44,16 @@ nav ul li a:hover {
     text-decoration: underline;
 }
 
-/* Sekcje */
+/* section */
 section {
     background: white;
     padding: 20px;
     margin: 10px auto;
-    border: 1px solid #ddd;
+    border: 1px solid #dddbdb;
     max-width: 700px;
 }
 
-/* Lista hobby */
+/* Hobbies */
 ul {
     list-style: square;
     padding-left: 20px;
@@ -61,7 +61,7 @@ ul {
     display: inline-block;
 }
 
-/* Linki */
+/* Links */
 a {
     color: #0073e6;
     text-decoration: none;
@@ -71,9 +71,9 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Stopka */
+/* Footer */
 footer {
-    background: #005bb5;
+    background: #0259b0;
     color: white;
     padding: 10px;
     margin-top: 20px;
