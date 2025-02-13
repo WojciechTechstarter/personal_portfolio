@@ -3,7 +3,6 @@
 body {
     display: flex;
     flex-direction: column;
-    min-height: max-content
 }
 
 
@@ -68,8 +67,9 @@ body {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    border: 2px solid red;
-
+    border: 5px solid red;
+    /* to see how big it is */
+    min-height: 100vw;
 }
 
 
@@ -98,7 +98,7 @@ body {
     width: 80%;
     height: 80px;
     background-color: black;
-    margin: 20px auto;
+    margin: auto auto 20px auto;
     border: 2px solid white;
 }
 
